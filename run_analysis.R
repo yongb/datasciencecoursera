@@ -3,6 +3,7 @@ rm(list=ls())
 library(plyr)
 library(reshape2)
 setwd("C:/Users/Yong/Google Drive/Ph.D/DataScience/Cleanning_Data/UCI")
+source("run_analysis.R")
 
 
 # 1. Merges the training and the test sets to create one data set.
